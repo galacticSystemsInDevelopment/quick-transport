@@ -6,12 +6,24 @@ import { spawn } from 'node:child_process';
 const PROJECT_NAME = "quick-access";
 const SITES_XML = "sites.xml";
 const FILES_DIR = join(process.cwd(), PROJECT_NAME, 'files');
+const REQUIRED_NS = "files.galacticsystemsindevelopment.xyz/xml_namespace/transport";
 
 
 function syncAll(filesDir: string) {
     try {
         const xml = fs.readFileSync(SITES_XML, 'utf8');
         const config = xml2js(xml, { compact: true }) as any;
+        // Extract the xmlns attribute from the <transport> root tag
+        const currentNs = config.transport?._attributes?.xmlns;
+
+        if (currentNs !== REQUIRED_NS) {
+            console.error("====================================================");
+            console.error("CRITICAL ERROR: UNAUTHORIZED TRANSPORT NAMESPACE!");
+            console.error(`Received: ${currentNs || "None"}`);
+            console.error(`Required: ${REQUIRED_NS}`);
+            console.error("====================================================");
+            process.exit(1); // Force the program to crash/exit
+        }
         const root = config.transport;
         
         const activePaths = new Set<string>();

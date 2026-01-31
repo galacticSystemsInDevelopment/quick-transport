@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transport xmlns="https://galacticsystemsindevelopment.xyz">
+    <!-- Root level site -->
+    <site id="main">https://galacticsystemsindevelopment.xyz</site>
+    
+    <!-- Subfolder for project sites -->
+    <folder name="projects">
+        <site id="gsnap">https://galacticsystemsindevelopment.xyz</site>
+        <site id="podium">https://galacticsystemsindevelopment.xyz</site>
+    </folder>
+
+    <!-- Subfolder for services -->
+    <folder name="services">
+        <site id="portal">https://portal.galacticsystemsindevelopment.xyz</site>
+        <site id="files">https://files.galacticsystemsindevelopment.xyz</site>
+    </folder>
+</transport>

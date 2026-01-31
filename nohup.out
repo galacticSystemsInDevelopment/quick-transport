@@ -1,0 +1,87 @@
+🚀 Creating Hono project...
+Resolving dependencies
+Resolved, downloaded and extracted [2]
+Saved lockfile
+create-hono version 0.19.4
+✔ Using target directory … quick-access
+- Cloning the template
+✔ Cloning the template
+- Installing project dependencies
+✔ Installing project dependencies
+🎉 Copied project files
+Get started with: cd quick-access
+🧹 Cleaning and injecting custom server...
+👀 Watching sites.xml for changes...
+✨ Regenerated transport files at 1:37:29 PM
+🌐 Launching Hono server on Port 3000...
+Started development server: http://localhost:3000
+<-- GET /
+--> GET / [32m200[0m 3ms
+<-- GET /index.xhtml
+--> GET /index.xhtml [32m200[0m 1ms
+<-- GET /tse.xhtml
+--> GET /tse.xhtml [32m200[0m 0ms
+<-- GET /tse.xhtml
+--> GET /tse.xhtml [32m200[0m 1ms
+🚀 Creating Hono project...
+Resolving dependencies
+Resolved, downloaded and extracted [2]
+Saved lockfile
+create-hono version 0.19.4
+✔ Using target directory … quick-access
+- Cloning the template
+✔ Cloning the template
+- Installing project dependencies
+✔ Installing project dependencies
+🎉 Copied project files
+Get started with: cd quick-access
+🧹 Cleaning and injecting custom server...
+👀 Watching sites.xml for changes...
+✨ Regenerated transport files at 1:39:46 PM
+🌐 Launching Hono server on Port 3000...
+Started development server: http://localhost:3000
+<-- GET /tse.xhtml
+--> GET /tse.xhtml [32m200[0m 3ms
+<-- GET /
+--> GET / [32m200[0m 2ms
+<-- GET /main.xhtml
+--> GET /main.xhtml [32m200[0m 0ms
+<-- GET /files.xhtml
+--> GET /files.xhtml [32m200[0m 0ms
+✨ Regenerated transport files at 1:40:32 PM
+<-- GET /
+--> GET / [32m200[0m 1ms
+<-- GET /
+--> GET / [32m200[0m 1ms
+🚀 Creating Hono project...
+Resolving dependencies
+Resolved, downloaded and extracted [2]
+Saved lockfile
+create-hono version 0.19.4
+✔ Using target directory … quick-access
+- Cloning the template
+✔ Cloning the template
+- Installing project dependencies
+✔ Installing project dependencies
+🎉 Copied project files
+Get started with: cd quick-access
+🧹 Injecting custom server...
+✨ Synced at 2:16:51 PM
+Started development server: http://localhost:3000
+<-- GET /
+--> GET / [32m200[0m 6ms
+❌ Sync Error: undefined is not an object (evaluating 'node.folder')
+🗑️ Deleted: gsnap.xhtml
+🗑️ Deleted: services/index.xhtml
+🗑️ Deleted: portal.xhtml
+🗑️ Deleted: files.xhtml
+🗑️ Deleted: projects/index.xhtml
+✨ Synced at 2:17:43 PM
+<-- GET /
+--> GET / [32m200[0m 11ms
+<-- GET /projects/
+--> GET /projects/ [32m200[0m 1ms
+<-- GET /
+--> GET / [32m200[0m 1ms
+<-- GET /main.xhtml
+--> GET /main.xhtml [32m200[0m 1ms

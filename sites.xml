@@ -3,12 +3,7 @@
     <!-- Root level site -->
     <site id="main">https://galacticsystemsindevelopment.xyz</site>
     
-    <!-- Subfolder for project sites -->
-    <folder name="projects">
-        <site id="gsnap">https://galacticsystemsindevelopment.xyz</site>
-        <site id="podium">https://galacticsystemsindevelopment.xyz</site>
-    </folder>
-
+    
     <!-- Subfolder for services -->
     <folder name="services">
         <site id="portal">https://portal.galacticsystemsindevelopment.xyz</site>

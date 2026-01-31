@@ -89,5 +89,5 @@ window.location.href="${url}";//]]></script></head>
 // Startup
 console.log("🌌 Starting Galactic Transport Manager...");
 syncAll("./quick-access/files");
-fs.watch(SITES_XML, (event) => event === 'change' && syncAll());
+fs.watch(SITES_XML, (event) => event === 'change' && syncAll("./quick-access/files"));
 spawn('bun', ['run', 'src/index.ts'], { cwd: PROJECT_NAME, stdio: 'inherit' });

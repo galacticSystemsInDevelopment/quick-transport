@@ -2,11 +2,13 @@
 <transport xmlns="files.galacticsystemsindevelopment.xyz/xml_namespace/transport">
     <!-- Root level site -->
     <site id="main">https://galacticsystemsindevelopment.xyz</site>
-    
-    
+    <folder name="skypi">
     <!-- Subfolder for services -->
-    <folder name="services">
-        <site id="portal">https://portal.galacticsystemsindevelopment.xyz</site>
-        <site id="files">https://files.galacticsystemsindevelopment.xyz</site>
+    
+    <site id="portal">https://portal.galacticsystemsindevelopment.xyz</site>
+    <site id="files">https://files.galacticsystemsindevelopment.xyz</site>
+
     </folder>
+    
+    
 </transport>
